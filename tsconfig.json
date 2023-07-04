@@ -1,13 +1,14 @@
 {
     "compilerOptions": {
-        "target": "ES6",
+        "outDir": "dist",
+        "target": "ES2019",
         "lib": [
             "dom",
             "dom.iterable",
-            "esnext"
+            "ESNext"
         ],
         "esModuleInterop": true,
-        "module": "ESNext",
+        "module": "CommonJS",
         "moduleResolution": "node",
         "jsx": "react",
         "rootDir": "src",
@@ -19,7 +20,7 @@
         "forceConsistentCasingInFileNames": true,
         "resolveJsonModule": true,
         "isolatedModules": true,
-        "noEmit": true
+        "noEmit": true,
     },
     "include": [
         "src"
