@@ -1,6 +1,6 @@
-import { HttpRequest, HttpResponse } from 'interfaces/http'
-import { Ok } from '../utils/http-responses'
-import { Count } from '../services/count'
+import { HttpRequest, HttpResponse } from '@/interfaces/http'
+import { Ok } from '@/utils/http-response'
+import { Count } from '@/services/count'
 
 export async function Example (request: HttpRequest): Promise<HttpResponse> {
   try {

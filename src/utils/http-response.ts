@@ -1,4 +1,4 @@
-import { HttpResponse } from 'interfaces/http'
+import { HttpResponse } from '@/interfaces/http'
 
 export const BadRequest = (body: any): HttpResponse => {
   return {

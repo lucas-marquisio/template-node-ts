@@ -1,5 +1,5 @@
-import { Request, Response } from 'express'
-import { HttpResponse, HttpRequest } from '../interfaces/http'
+import { Response } from 'express'
+import { HttpRequest } from '@/interfaces/http'
 
 export const adapterRoute = (controller: Function) => {
   return async (req: HttpRequest, res: Response) => {
